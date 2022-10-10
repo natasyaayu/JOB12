@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         button1.setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
+			
+			}
 
             val button2= findViewById<Button>(R.id.button2)
 
@@ -25,4 +27,4 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-}
+
